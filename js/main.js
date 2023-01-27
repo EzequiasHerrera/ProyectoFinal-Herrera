@@ -11,7 +11,7 @@ function checkLogIn() {
             icon: 'question',
             title: 'Aun no te has registrado?',
             text: 'Para acceder a todas las opciones debes estar registrado',
-            footer: '<a href="/pages/register.html">Registrarme</a>'
+            footer: '<a href="pages/register.html">Registrarme</a>'
         });
     } else {
         hacerInvisible(btnRegistro);
