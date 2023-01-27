@@ -58,7 +58,7 @@ function crearHTML(array) {
         html =
             `<div class="col">
         <div class="card shadow">
-        <a href="${noticia.href}"><img src="./img/${noticia.img}" class="card-img-top" alt="articulo"></a>
+        <a href="${noticia.href}"><img src="img/${noticia.img}" class="card-img-top" alt="articulo"></a>
         <div class="card-body">
         <h5 class="card-title text-selected">${noticia.titulo}</h5>
         <p class="card-text">${noticia.texto}</p>
