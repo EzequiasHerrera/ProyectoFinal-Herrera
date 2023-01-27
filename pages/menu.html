@@ -1,0 +1,111 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Burger King</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="shortcut icon" href="../img/logo.ico" type="image/x-icon">
+    <!-- CSS -->
+    <link rel="stylesheet" href="../css/styles.css">
+    <!-- Bootstrap CSS v5.2.1 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <!-- Iconos -->
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" />
+</head>
+
+<body class="bg-principal">
+    <header>
+        <nav class="navbar navbar-expand-lg fixed-top bg-principal ">
+            <div class="container-fluid">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText"
+                    aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <a class="navbar-brand" href="../index.html">
+                    <img src="img/logo.png" alt="Logo" width="110">
+                </a>
+                <div class="collapse navbar-collapse" id="navbarText">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link text-selected" aria-current="page" href="#">Nuestro Menu</a>
+                        </li>
+                    </ul>
+                    <p id="bienvenida" class="text-selected"></p>
+                    <span class="navbar-text mx-3">
+                        <a id="btnRegistro" href="pages/register.html"><button type="button"
+                                class="btn btn-danger rounded-pill btn-sm">Registrarse</button></a>
+                    </span>
+                    <span id="btnLogOut" class="navbar-text mx-3">
+                        <button type="button" class="btn btn-danger rounded-pill btn-sm">Cerrar Sesion</button>
+                    </span>
+                    <span class="navbar-text mx-3">
+                        <a href="carrito.html"><button type="button"
+                                class="btn btn-danger rounded-pill btn-sm">Carrito</button></a>
+                    </span>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <div class="container-fluid bg-secundario margen texto-menu">
+            <p class="p-3 text-center">Nuestro Menú</p>
+        </div>
+        <div class="container">
+            <div class="row justify-content-start">
+                <div id="menu" class="row row-cols-2 row-cols-md-3 g-4">
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer class="bg-secundario mt-3">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 mt-3 text-light text-center">
+                    <h3>SOBRE NOSOTROS</h3>
+                    <p>Cada día, más de 11 millones de clientes visitan los restaurantes Burger King de todo el mundo. Y
+                        lo hacen porque nuestros restaurantes son conocidos por servir comida de alta calidad, gran
+                        sabor y asequible. Fundada en 1954, Burger King es la segunda cadena de hamburgueserías de
+                        comida rápida más grande del mundo. El hogar original del Whopper, nuestro compromiso con
+                        ingredientes de primera calidad, recetas exclusivas y experiencias gastronómicas familiares es
+                        lo que ha definido nuestra marca durante más de 50 exitosos años.</p>
+                </div>
+                <div class="col-md-4 mt-3 text-light text-center">
+                    <h3>CONTACTANOS</h3>
+                    <ul>
+                        <li>Email: bk_info@gmail.com</li>
+                        <li>Telefono: 1-866-394-2493</li>
+                        <li>Address: 123 Main St, Anytown USA</li>
+                    </ul>
+                </div>
+                <div class="col-md-4 mt-3 text-light text-center">
+                    <h3>SIGUENOS</h3>
+                    <ul class="social-icons">
+                        <li><a href="#"><i class="bx bxl-facebook bx-tada-hover"></i></a></li>
+                        <li><a href="#"><i class="bx bxl-twitter bx-tada-hover"></i></a></li>
+                        <li><a href="#"><i class="bx bxl-linkedin bx-tada-hover"></i></a></li>
+                        <li><a href="#"><i class="bx bxl-google bx-tada-hover"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- Sweet Alert -->
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <!-- Bootstrap JavaScript Libraries -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+        integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous">
+        </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js"
+        integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz" crossorigin="anonymous">
+        </script>
+    <!-- JavaScript -->
+    <script src="../js/menu.js"></script>
+</body>
+
+</html>

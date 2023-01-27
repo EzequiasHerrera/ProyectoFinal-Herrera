@@ -1,0 +1,26 @@
+[
+    {
+        "titulo": "¡Ahora hasta el 30/6/23!",
+        "texto": "¡No querrás perdértelo! Únete a Royal Perks ahora para obtener tus 🍟 cada semana, con cualquier compra, desde ahora hasta el 30 de junio de 2023.",
+        "img": "articulo1.webp",
+        "href": "#"
+    },
+    {
+        "titulo": "1$ de Gastos de envío",
+        "texto": "Al realizar un pedido de más de 5 $ en la aplicación BK®. Pueden aplicarse tarifas adicionales y precios más altos.",
+        "img": "articulo2.webp",
+        "href": "#"
+    },
+    {
+        "titulo": "GRATIS* Whopper, Croissandwich o el Sandwich Original de Pollo en tu primer pedido digital",
+        "texto": "Solo en BK® App y bk.com. Disponible a la entrega. *Requiere compra mínima de $3+.",
+        "img": "articulo3.webp",
+        "href": "#"
+    },
+    {
+        "titulo": "Unete al equipo!",
+        "texto": "En BK®, puedes encontrar equilibrio entre la vida laboral y personal, flexibilidad y crecimiento profesional, porque te mereces vivir la vida a tu manera. No es sólo un trabajo, ¡es una oportunidad profesional! Las decisiones de contratación son determinadas exclusivamente por el franquiciado, que es el propietario y operador independiente de cada restaurante.",
+        "img": "articulo4.webp",
+        "href": "#"
+    }
+]

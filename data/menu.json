@@ -1,0 +1,30 @@
+[
+    {
+        "nombre": "Hamburguesa Simple",
+        "precio": "800",
+        "img": "hamburguesa1.webp",
+        "href": "#",
+        "id": "1"
+    },
+    {
+        "nombre": "Hamburguesa Doble",
+        "precio": "1200",
+        "img": "hamburguesa2.webp",
+        "href": "#",
+        "id": "2"
+    },
+    {
+        "nombre": "Hamburguesa Triple",
+        "precio": "1750",
+        "img": "hamburguesa3.webp",
+        "href": "#",
+        "id": "3"
+    },
+    {
+        "nombre": "Hamburdeath cuadruple",
+        "precio": "2000",
+        "img": "hamburguesa4.webp",
+        "href": "#",
+        "id": "4"
+    }
+]

@@ -1,0 +1,104 @@
+@import url("https://fonts.googleapis.com/css2?family=Shrikhand&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Shrikhand', cursive;
+}
+
+.bg-principal {
+  background-color: #f5ebdc;
+}
+
+.bg-secundario {
+  background-color: #3c100f;
+}
+
+.bg-secundario.btn:hover {
+  background-color: #ca765a;
+}
+
+.no-padding {
+  padding: 0px !important;
+}
+
+.text-selected {
+  color: #72351f !important;
+}
+
+.text-selected.nav-link:hover {
+  color: #d62300 !important;
+}
+
+.text-register {
+  color: #3c100f;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.card-text {
+  font-size: small;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.texto-menu {
+  font-size: 50px;
+  color: #f5ebdc;
+}
+
+.texto-precio {
+  font-size: 25px;
+  font-family: 'Shrikhand', cursive;
+  color: #ffa927;
+}
+
+.burger-mouseon:hover {
+  transition: 100ms;
+  transform: scale(1.1);
+}
+
+body {
+  min-height: 100vh;
+  background-color: #f5ebdc;
+}
+
+body .register-form {
+  border-radius: 20px;
+}
+
+body .register-form div {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif !important;
+}
+
+body .register-form form {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif !important;
+}
+
+body main div.margen {
+  margin-top: 10%;
+}
+
+body main div div .texto-oferta {
+  font-size: 50px;
+  color: #3c100f;
+}
+
+body footer .container .row div ul {
+  padding-left: 0px;
+}
+
+body footer .container .row div li {
+  margin-right: 5px;
+  color: #c3a3a4;
+  list-style: none;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+body footer .container .row div li i {
+  color: #fafafa;
+}
+
+body footer .container .row div p {
+  color: #c3a3a4;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
