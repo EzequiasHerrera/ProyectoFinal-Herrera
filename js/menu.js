@@ -44,7 +44,7 @@ function crearHTML(array) {
         html =
             `<div class="col">
                 <div class="card shadow">
-                    <img src="./img/${menu.img}" class="card-img-top burger-mouseon" alt="articulo">
+                    <img src="../img/${menu.img}" class="card-img-top burger-mouseon" alt="articulo">
                     <div class="card-body">
                         <h5 class="card-title text-selected text-center">${menu.nombre}</h5>
                         <p class="card-text text-center texto-precio">$${menu.precio}</p>
